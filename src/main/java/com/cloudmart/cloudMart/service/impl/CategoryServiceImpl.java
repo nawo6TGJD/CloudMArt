@@ -14,7 +14,7 @@ import com.ecom.repository.CategoryRepository;
 import com.ecom.service.CategoryService;
 
 @Service
-public class CategoryServiceImpl implements CategoryService {
+public class CategoryServiceImpl {
 
     @Autowired
     private CategoryRepository categoryRepository;
